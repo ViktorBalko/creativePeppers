@@ -1,0 +1,117 @@
+.main {
+display: block;
+   width: 1440px;
+   height: 715px;
+   /* background-color: #0b0d16; */
+      background: linear-gradient(353deg, #010100, #06101e);
+      /* background: linear-gradient(6deg, #031328, #031d3e); */
+   position: relative;
+   overflow: hidden;
+   margin: 0;
+}
+
+li {
+   list-style-type: none;
+}
+
+a {
+   cursor: pointer;
+}
+
+.logoCreative {
+   display: block;
+   width: 225px;
+   padding-top: 15px;
+   padding-left: 25px;
+}
+
+.yyy {
+   display: flex;
+      flex-direction: column;
+      width: 2250px;
+      /* height: auto; */
+      rotate: 306deg;
+      padding: 0;
+      /* margin-left: 457px; */
+      position: absolute;
+      left: -238px;
+      top: -377px;
+}
+
+.ttt {
+      display: block;
+         height: 230px;
+         width: 1193px;
+         /* transition: 2s; */
+            border: 1px solid #0064006b;
+         /* background: linear-gradient(35deg, #01387d, rgb(0 8 15)); */
+}
+
+ .tttext {
+   color: rgba(4, 86, 154, 0.882);
+      padding-left: 222px;
+      font-size: 40px;
+      padding-left: 413px;
+      transition: 2s;
+ }
+
+ .ttt:hover {
+   /* animation-duration: 2s; */
+   /* transition: 2s; */
+      transition: .8s;
+         scale: 1.04;
+         /* background: linear-gradient(354deg, black, #0573ac); */
+         /* background: #15727273; */
+         box-shadow: 15px 35px #04657e29;
+    background: linear-gradient(270deg, rgb(2, 81, 51), rgb(1, 15, 1));
+ }
+
+ .ttt:hover .tttext {
+    color: rgb(101, 124, 7);
+font-size: 57px;
+transition: 2s;
+ }
+
+ .ttt:nth-child(2) {
+    margin-left: 152px;
+ }
+
+ .ttt:nth-child(3) {
+    margin-left: 304px;
+ }
+
+ .ttt:nth-child(4) {
+    margin-left: 455px;
+ }
+
+ .ttt:nth-child(5) {
+    margin-left: 607px;
+ }
+
+ .contacts__navy-list {
+   position: absolute;
+      right: 17px;
+      bottom: 49px;
+      rotate: 34deg;
+      /* /* top: -60px;  */
+ }
+
+ .contacts__navy-link {
+   display: block;
+      position: relative;
+      /* margin-bottom: 25px; */
+      width: 50px;
+      height: 50px;
+      /* border-radius: 50%; */
+ }
+
+ .contacts__navy-link .icon {
+   width: 30px;
+      height: 30px;
+      fill: #054d8a;
+      position: absolute;
+      top: 115%;
+      left: 27%;
+      /* fill: red; */
+      rotate: -33deg;
+ }
